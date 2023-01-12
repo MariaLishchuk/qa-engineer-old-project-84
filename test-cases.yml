@@ -1,0 +1,238 @@
+- summary: 
+    Проверка переключения языка интерфейса сайта
+  requirement: 
+    При выборе «Russian» в выпадающем меню интерфейс сайта должен быть отображен на русском языке
+  prerequisites: 
+    Перейти по ссылке https://hexlet-products-store.vercel.app/
+  test-data: 
+    нет
+  steps:
+    - Нажать кнопку «Language»
+    - Выбрать значение «Russian» в выпадающем меню
+  expected-result: 
+    Интерфейс сайта отображен на русском языке
+  
+  
+- summary: 
+    Проверка сортировки каталога по категориям
+  requirement: 
+    При выборе «fragrances» в выпадающем меню должны быть отражены товары соответствующей категории
+  prerequisites: 
+    Перейти по ссылке https://hexlet-products-store.vercel.app/
+  test-data: 
+    нет
+  steps:
+    - Нажать кнопку «Category»
+    - Выбрать значение «fragrances» в выпадающем меню
+  expected-result: 
+    На странице сайта отражены товары категории «fragrances»
+
+
+- summary: 
+    Проверка работы системы фильтрации товаров
+  requirement: 
+    При выборе пункта в меню «Brand» должны быть отражены товары выбранного бренда
+  prerequisites: 
+    Перейти по ссылке https://hexlet-products-store.vercel.app/
+  test-data: 
+    нет
+  steps:
+    - Поставить галочку в чекбоксе бренда «Samsung»
+  expected-result: 
+    На странице сайта отражены товары бренда «Samsung»
+
+
+- summary: 
+    Проверка работы системы поиска
+  requirement: 
+    При вводе значение в окно поиска на странице должны быть отражены товары, в названиях которых используется введенное значение
+  prerequisites: 
+    Перейти по ссылке https://hexlet-products-store.vercel.app/
+  test-data: 
+    «iphone»
+  steps:
+    - В поисковом окне ввести значение «iphone»
+  expected-result: 
+    На странице сайта отражены товары, в названии которых есть «iphone»
+
+
+- summary: 
+    Проверка добавления товара в корзину из каталога
+  requirement: 
+    При нажатии на кнопку «Add to cart» соответствующий товар отображается в корзине
+  prerequisites: 
+    Перейти по ссылке https://hexlet-products-store.vercel.app/
+  test-data: 
+    нет
+  steps:
+    - Найти товар «MacBook Pro»
+    - Нажать кнопку «Add to cart»
+  expected-result: 
+    В корзине отображен товар «MacBook Pro»
+
+
+- summary: 
+    Проверка удаления товара из корзины
+  requirement: 
+    При нажатии на кнопку «Delete» напротив товара в корзине он удаляется из нее
+  prerequisites: 
+    Перейти по ссылке https://hexlet-products-store.vercel.app/
+  test-data: 
+    нет
+  steps:
+    - Найти товар «MacBook Pro»
+    - Нажать кнопку «Add to cart»
+    - Нажать кнопку «Cart»
+    - Нажать кнопку «Delete» напротив товара «MacBook Pro»
+  expected-result: 
+    Товар «MacBook Pro» удален из корзины
+
+
+- summary: 
+    Проверка перехода на страницу товара
+  requirement: 
+    При нажатии на краткую карточку товара в каталоге отображается страница товара
+  prerequisites: 
+    Перейти по ссылке https://hexlet-products-store.vercel.app/
+  test-data: 
+    нет
+  steps:
+    - Найти товар «MacBook Pro» в каталоге
+    - Нажать на его краткую карточку
+  expected-result: 
+    Отображена страница товара «MacBook Pro»
+
+
+- summary: 
+    Проверка оформления заказа
+  requirement: 
+    При нажатии кнопки «Checkout» должно быть отображено окно «Order placed successfully» с перечнем товаров из корзины и итоговой стоимостью
+  prerequisites: 
+    Перейти по ссылке https://hexlet-products-store.vercel.app/
+  test-data: 
+    нет
+  steps:
+    - Найти товар «MacBook Pro»
+    - Нажать кнопку «Add to cart»
+    - Нажать кнопку «Cart»
+    - Нажать кнопку «Checkout»
+  expected-result: 
+    Отображено окно «Order placed successfully» с перечнем товаров из корзины и итоговой стоимостью
+- summary: 
+    Проверка функции «Очистить корзину»
+  requirement: 
+    При нажатии кнопки «Clear cart» все товары должны быть удалены из корзины
+  prerequisites: 
+    Перейти по ссылке https://hexlet-products-store.vercel.app/
+  test-data: 
+    нет
+  steps:
+    - Найти товар «MacBook Pro»
+    - Нажать кнопку «Add to cart»
+    - Нажать кнопку «Cart»
+    - Нажать кнопку « Clear cart »
+  expected-result: 
+    Все товары удалены из корзины
+
+
+- summary: 
+    Проверка фильтра по стоимости товара
+  requirement: 
+    При введении числового интервала в окнах фильтра «Price» должны быть отображены товары, чья стоимость попадает в указанный интервал
+  prerequisites: 
+    Перейти по ссылке https://hexlet-products-store.vercel.app/
+  test-data: 
+    300 – 700 
+  steps:
+    - Ввести числовое значение «300» в левое окно фильтра «Price»
+    - Ввести числовое значение «700» в правое окно фильтра «Price»
+  expected-result: 
+    На странице отображены товары, чья стоимость попадает в интервал 300-700
+
+
+- summary: 
+    Проверка перехода из каталога в корзину
+  requirement: 
+    При нажатии кнопки «Cart» должна быть отображена корзина
+  prerequisites: 
+    Перейти по ссылке https://hexlet-products-store.vercel.app/
+  test-data: 
+    нет
+  steps:
+    - Нажать кнопку «Cart»
+  expected-result: 
+    Отображена корзина
+
+
+- summary: 
+    Проверка перехода из корзины в магазин
+  requirement: 
+    При нажатии кнопки «Store» должна быть отображена главная страница магазина
+  prerequisites: 
+    Перейти по ссылке https://hexlet-products-store.vercel.app/cart
+  test-data: 
+    нет
+  steps:
+    - Нажать кнопку «Store»
+  expected-result: 
+    Отображена главная страница магазина
+
+
+- summary: 
+    Проверка добавления товара в корзину со страницы товара
+  requirement: 
+    При выборе «fragrances» в выпадающем меню должны быть отражены товары соответствующей категории
+  prerequisites: 
+    Перейти по ссылке https://hexlet-products-store.vercel.app/
+  test-data: 
+    нет
+  steps:
+    - Найти товар «MacBook Pro» в каталоге
+    - Нажать на его краткую карточку
+    - Нажать на кнопку «Add to cart»
+  expected-result: 
+    В корзине отображен товар «MacBook Pro»
+
+
+- summary: 
+    Проверка режима просмотра фотографий товара на странице товара
+  requirement: 
+    При нажатии на изображение на странице товара должен открываться режим просмотра изображений 
+  prerequisites: 
+    Перейти по ссылке https://hexlet-products-store.vercel.app/products/1
+  test-data: 
+    нет
+  steps:
+    - Нажать на изображение
+  expected-result: 
+    Открыт режим просмотра изображений
+
+
+- summary: 
+    Проверка режима работы хештегов
+  requirement: 
+    При нажатии на хештег должна быть отображена страница с товарами с таким же хештегом
+  prerequisites: 
+    Перейти по ссылке https://hexlet-products-store.vercel.app/products/1
+  test-data: 
+    нет
+  steps:
+    - Нажать на хештег «#smartphones»
+  expected-result: 
+    Отображена страница с товарами с хештегом «#smartphones»
+
+
+- summary: 
+    Проверка режима возврата к покупкам из корзины
+  requirement: 
+    При нажатии на кнопку «Continue shopping» должен быть отображен каталог товаров
+  prerequisites: 
+    Перейти по ссылке https://hexlet-products-store.vercel.app/cart
+  test-data: 
+    нет
+  steps:
+    - Нажать на кнопку «Continue shopping»
+  expected-result: 
+    Отображен каталог товаров
+
+
