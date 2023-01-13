@@ -93,3 +93,35 @@ test-cases:
 - summary: 
     Проверка перехода на главную страницу при нажатии на логотип
   status: pass
+
+
+bugreports: 
+  
+  - summary: 
+    Не работает режим просмотра изображений
+  environment: 
+    Google Chrome 108.0.5359.125 (Официальная сборка) (64 бит)
+    ОС Windows 10 19045.2364
+  steps-to-reproduce: 
+    1. Зайти на страницу товара https://hexlet-products-store.vercel.app/products/1
+    2. Нажать на изображение товара
+  expected-result: 
+    На странице открывается режим просмотра изображений
+  actual-result: 
+    На странице ничего не происходит
+    
+    
+   - summary: 
+    Не работает поиск при включенном фильтре
+  environment: 
+    Google Chrome 108.0.5359.125 (Официальная сборка) (64 бит)
+    ОС Windows 10 19045.2364
+  steps-to-reproduce: 
+    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    2. Поставить галочку в чекбоксе бренда «Samsung»
+    3. В поисковом окне ввести значение «iphone»
+  expected-result: 
+    На странице отображен результат поисковой выдачи
+  actual-result: 
+    На странице отображен весь каталог продукции
+    
