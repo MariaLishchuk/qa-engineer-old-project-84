@@ -67,7 +67,7 @@ test-cases:
 
 - summary: 
     Проверка режима просмотра фотографий товара на странице товара
-  status: pass
+  status: fail
 
 
 - summary: 
