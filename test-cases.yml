@@ -3,9 +3,9 @@
   requirement: 
     При выборе «Russian» в выпадающем меню интерфейс сайта должен быть отображен на русском языке
   prerequisites: 
-    1. Устройство: ПК
-    2. Браузер: Яндекс.Браузер
-    3. Перейти по ссылке: hexlet-products-store.vercel.app
+    Устройство: ПК
+    Браузер: Яндекс.Браузер
+    Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -23,9 +23,9 @@
   requirement: 
     При выборе «fragrances» в выпадающем меню должны быть отражены товары соответствующей категории
   prerequisites: 
-    1. Устройство: iPhone XR
-    2. Браузер: Microsoft Edge
-    3. Перейти по ссылке: hexlet-products-store.vercel.app
+    Устройство: iPhone XR
+    Браузер: Microsoft Edge
+    Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -40,9 +40,9 @@
   requirement: 
     При выборе пункта в меню «Brand» должны быть отражены товары выбранного бренда
   prerequisites: 
-    1. Устройство: Xiaomi Redmi Note 11E
-    2. Браузер: Microsoft Edge
-    3. Перейти по ссылке: hexlet-products-store.vercel.app
+    Устройство: Xiaomi Redmi Note 11E
+    Браузер: Microsoft Edge
+    Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -56,9 +56,9 @@
   requirement: 
     При вводе значение в окно поиска на странице должны быть отражены товары, в названиях которых используется введенное значение
   prerequisites: 
-    1. Устройство: iPad 10.2
-    2. Браузер: Microsoft Edge
-    3. Перейти по ссылке: hexlet-products-store.vercel.app
+    Устройство: iPad 10.2
+    Браузер: Microsoft Edge
+    Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     «iphone»
   steps:
@@ -72,9 +72,9 @@
   requirement: 
     При нажатии на кнопку «Add to cart» соответствующий товар отображается в корзине
   prerequisites: 
-    1. Устройство: ПК
-    2. Браузер: Яндекс.Браузер
-    3. Перейти по ссылке: hexlet-products-store.vercel.app
+    Устройство: ПК
+    Браузер: Яндекс.Браузер
+    Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -90,9 +90,9 @@
   requirement: 
     При нажатии на кнопку «Delete» напротив товара в корзине он удаляется из нее
   prerequisites: 
-    1. Устройство: Samsung Galaxy Tab A 8.0 SM-T295
-    2. Браузер: Microsoft Edge
-    3. Перейти по ссылке: hexlet-products-store.vercel.app
+    Устройство: Samsung Galaxy Tab A 8.0 SM-T295
+    Браузер: Microsoft Edge
+    Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -109,9 +109,9 @@
   requirement: 
     При нажатии на краткую карточку товара в каталоге отображается страница товара
   prerequisites: 
-    1. Устройство: iPhone XR
-    2. Браузер: Google Chrome
-    3. Перейти по ссылке: hexlet-products-store.vercel.app
+    Устройство: iPhone XR
+    Браузер: Google Chrome
+    Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -126,9 +126,9 @@
   requirement: 
     При нажатии кнопки «Checkout» должно быть отображено окно «Order placed successfully» с перечнем товаров из корзины и итоговой стоимостью
   prerequisites: 
-    1. Устройство: Xiaomi Redmi Note 11E
-    2. Браузер: Google Chrome
-    3. Перейти по ссылке: hexlet-products-store.vercel.app
+    Устройство: Xiaomi Redmi Note 11E
+    Браузер: Google Chrome
+    Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -145,9 +145,9 @@
   requirement: 
     При нажатии кнопки «Clear cart» все товары должны быть удалены из корзины
   prerequisites: 
-    1. Устройство: iPad 10.2
-    2. Браузер: Google Chrome
-    3. Перейти по ссылке: hexlet-products-store.vercel.app
+    Устройство: iPad 10.2
+    Браузер: Google Chrome
+    Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -164,9 +164,9 @@
   requirement: 
     При введении числового интервала в окнах фильтра «Price» должны быть отображены товары, чья стоимость попадает в указанный интервал
   prerequisites: 
-    1. Устройство: Samsung Galaxy Tab A 8.0 SM-T295
-    2. Браузер: Google Chrome
-    3. Перейти по ссылке: hexlet-products-store.vercel.app
+    Устройство: Samsung Galaxy Tab A 8.0 SM-T295
+    Браузер: Google Chrome
+    Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     300 – 700 
   steps:
@@ -181,9 +181,9 @@
   requirement: 
     При введении числового интервала в окнах фильтра «Price» должны быть отображены товары, чья стоимость с учетом скидки попадает в указанный интервал
   prerequisites: 
-    1. Устройство: ПК
-    2. Браузер: Microsoft Edge
-    3. Перейти по ссылке: hexlet-products-store.vercel.app
+    Устройство: ПК
+    Браузер: Microsoft Edge
+    Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     229 – 230 
   steps:
@@ -198,9 +198,9 @@
   requirement: 
     При нажатии кнопки «Cart» должна быть отображена корзина
   prerequisites: 
-    1. Устройство: iPhone XR
-    2. Браузер: Яндекс.Браузер
-    3. Перейти по ссылке: hexlet-products-store.vercel.app
+    Устройство: iPhone XR
+    Браузер: Яндекс.Браузер
+    Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -214,9 +214,9 @@
   requirement: 
     При нажатии кнопки «Store» должна быть отображена главная страница магазина
   prerequisites: 
-    1. Устройство: Xiaomi Redmi Note 11E
-    2. Браузер: Яндекс.Браузер
-    3. Перейти по ссылке: hexlet-products-store.vercel.app/cart
+    Устройство: Xiaomi Redmi Note 11E
+    Браузер: Яндекс.Браузер
+    Перейти по ссылке: hexlet-products-store.vercel.app/cart
   test-data: 
     нет
   steps:
@@ -230,9 +230,9 @@
   requirement: 
     При выборе «fragrances» в выпадающем меню должны быть отражены товары соответствующей категории
   prerequisites: 
-    1. Устройство: iPad 10.2
-    2. Браузер: Safari
-    3. Перейти по ссылке: hexlet-products-store.vercel.app
+    Устройство: iPad 10.2
+    Браузер: Safari
+    Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -249,9 +249,9 @@
   requirement: 
     При нажатии на изображение на странице товара должен открываться режим просмотра изображений 
   prerequisites: 
-    1. Устройство: ПК
-    2. Браузер: Google Chrome
-    3. Перейти по ссылке: hexlet-products-store.vercel.app
+    Устройство: ПК
+    Браузер: Google Chrome
+    Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -266,9 +266,9 @@
   requirement: 
     При нажатии на хештег должна быть отображена страница с товарами с таким же хештегом
   prerequisites: 
-    1. Устройство: ПК
-    2. Браузер: Google Chrome
-    3. Перейти по ссылке: hexlet-products-store.vercel.app
+    Устройство: ПК
+    Браузер: Google Chrome
+    Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -283,9 +283,9 @@
   requirement: 
     При нажатии на кнопку «Continue shopping» должен быть отображен каталог товаров
   prerequisites: 
-    1. Устройство: Samsung Galaxy Tab A 8.0 SM-T295
-    2. Браузер: Яндекс.Браузер
-    3. Перейти по ссылке: hexlet-products-store.vercel.app/cart
+    Устройство: Samsung Galaxy Tab A 8.0 SM-T295
+    Браузер: Яндекс.Браузер
+    Перейти по ссылке: hexlet-products-store.vercel.app/cart
   test-data: 
     нет
   steps:
@@ -299,9 +299,9 @@
   requirement: 
     При нажатии на кнопку «Next» должна быть отображена следующая страница каталога товаров
   prerequisites: 
-    1. Устройство: iPhone XR
-    2. Браузер: Safari
-    3. Перейти по ссылке: hexlet-products-store.vercel.app
+    Устройство: iPhone XR
+    Браузер: Safari
+    Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -315,9 +315,9 @@
   requirement: 
     При нажатии на кнопку «Previous» должна быть отображена предыдущая страница каталога товаров
   prerequisites: 
-    1. Устройство: ПК
-    2. Браузер: Safari
-    3. Перейти по ссылке: hexlet-products-store.vercel.app
+    Устройство: ПК
+    Браузер: Safari
+    Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -332,9 +332,9 @@
   requirement: 
     При нажатии на логотип в хеддере должна быть отображена главная страница сайта
   prerequisites: 
-    1. Устройство: ПК
-    2. Браузер: Google Chrome
-    3. Перейти по ссылке: hexlet-products-store.vercel.app/cart
+    Устройство: ПК
+    Браузер: Google Chrome
+    Перейти по ссылке: hexlet-products-store.vercel.app/cart
   test-data: 
     нет
   steps:
@@ -348,9 +348,9 @@
   requirement: 
     При вводе отрицательных чисел в окнах фильтра «Price» должны быть отображены числа без знака минус
   prerequisites: 
-    1. Устройство: ПК
-    2. Браузер: Microsoft Edge
-    3. Перейти по ссылке: hexlet-products-store.vercel.app
+    Устройство: ПК
+    Браузер: Microsoft Edge
+    Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     -300 – -700 
   steps:
@@ -365,9 +365,9 @@
   requirement: 
     При нажатии на кнопку «стрелка вниз» в левом окне фильтра «Price» значение в окне не опускается ниже 0
   prerequisites: 
-    1. Устройство: ПК
-    2. Браузер: Microsoft Edge
-    3. Перейти по ссылке: hexlet-products-store.vercel.app/cart
+    Устройство: ПК
+    Браузер: Microsoft Edge
+    Перейти по ссылке: hexlet-products-store.vercel.app/cart
   test-data: 
     нет
   steps:
@@ -381,9 +381,9 @@
   requirement: 
     При нажатии на кнопку «стрелка вниз» в правом окне фильтра «Price» значение в окне не опускается ниже 0
   prerequisites: 
-    1. Устройство: ПК
-    2. Браузер: Яндекс.Браузер
-    3. Перейти по ссылке: hexlet-products-store.vercel.app/cart
+    Устройство: ПК
+    Браузер: Яндекс.Браузер
+    Перейти по ссылке: hexlet-products-store.vercel.app/cart
   test-data: 
     нет
   steps:
@@ -397,9 +397,9 @@
   requirement: 
     При нажатии на кнопку «крестик» окно «Заказ успешно оформлен» закрывается
   prerequisites: 
-    1. Устройство: ПК
-    2. Браузер: Microsoft Edge
-    3. Перейти по ссылке: hexlet-products-store.vercel.app
+    Устройство: ПК
+    Браузер: Microsoft Edge
+    Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -416,9 +416,9 @@
   requirement: 
     При вводе в поиске несуществующего названия товара отображается текст «Nothing found!»
   prerequisites: 
-    1. Устройство: ПК
-    2. Браузер: Яндекс.Браузер
-    3. Перейти по ссылке: hexlet-products-store.vercel.app
+    Устройство: ПК
+    Браузер: Яндекс.Браузер
+    Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     ifone
   steps:
@@ -432,9 +432,9 @@
   requirement: 
     При вводе в поиске несуществующего названия товара отображается текст «Nothing found!»
   prerequisites: 
-    1. Устройство: ПК
-    2. Браузер: Google Chrome
-    3. Перейти по ссылке: hexlet-products-store.vercel.app
+    Устройство: ПК
+    Браузер: Google Chrome
+    Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
