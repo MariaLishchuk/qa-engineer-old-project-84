@@ -200,7 +200,7 @@
   prerequisites: 
     1. Устройство: iPhone XR
     2. Браузер: Яндекс.Браузер
-   3. Перейти по ссылке: https://hexlet-products-store.vercel.app/
+    3. Перейти по ссылке: https://hexlet-products-store.vercel.app/
   test-data: 
     нет
   steps:
