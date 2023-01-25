@@ -5,7 +5,7 @@
   prerequisites: 
     1. Устройство: ПК
     2. Браузер: Яндекс.Браузер
-    3. Перейти по ссылке: https://hexlet-products-store.vercel.app/
+    3. Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -25,7 +25,7 @@
   prerequisites: 
     1. Устройство: iPhone XR
     2. Браузер: Microsoft Edge
-    3. Перейти по ссылке: https://hexlet-products-store.vercel.app/
+    3. Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -42,7 +42,7 @@
   prerequisites: 
     1. Устройство: Xiaomi Redmi Note 11E
     2. Браузер: Microsoft Edge
-    3. Перейти по ссылке: https://hexlet-products-store.vercel.app/
+    3. Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -58,7 +58,7 @@
   prerequisites: 
     1. Устройство: iPad 10.2
     2. Браузер: Microsoft Edge
-    3. Перейти по ссылке: https://hexlet-products-store.vercel.app/
+    3. Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     «iphone»
   steps:
@@ -74,7 +74,7 @@
   prerequisites: 
     1. Устройство: ПК
     2. Браузер: Яндекс.Браузер
-    3. Перейти по ссылке: https://hexlet-products-store.vercel.app/
+    3. Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -92,7 +92,7 @@
   prerequisites: 
     1. Устройство: Samsung Galaxy Tab A 8.0 SM-T295
     2. Браузер: Microsoft Edge
-    3. Перейти по ссылке: https://hexlet-products-store.vercel.app/
+    3. Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -111,7 +111,7 @@
   prerequisites: 
     1. Устройство: iPhone XR
     2. Браузер: Google Chrome
-    3. Перейти по ссылке: https://hexlet-products-store.vercel.app/
+    3. Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -128,7 +128,7 @@
   prerequisites: 
     1. Устройство: Xiaomi Redmi Note 11E
     2. Браузер: Google Chrome
-    3. Перейти по ссылке: https://hexlet-products-store.vercel.app/
+    3. Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -147,7 +147,7 @@
   prerequisites: 
     1. Устройство: iPad 10.2
     2. Браузер: Google Chrome
-    3. Перейти по ссылке: https://hexlet-products-store.vercel.app/
+    3. Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -166,7 +166,7 @@
   prerequisites: 
     1. Устройство: Samsung Galaxy Tab A 8.0 SM-T295
     2. Браузер: Google Chrome
-    3. Перейти по ссылке: https://hexlet-products-store.vercel.app/
+    3. Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     300 – 700 
   steps:
@@ -183,7 +183,7 @@
   prerequisites: 
     1. Устройство: ПК
     2. Браузер: Microsoft Edge
-    3. Перейти по ссылке: https://hexlet-products-store.vercel.app/
+    3. Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     229 – 230 
   steps:
@@ -200,7 +200,7 @@
   prerequisites: 
     1. Устройство: iPhone XR
     2. Браузер: Яндекс.Браузер
-    3. Перейти по ссылке: https://hexlet-products-store.vercel.app/
+    3. Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -216,7 +216,7 @@
   prerequisites: 
     1. Устройство: Xiaomi Redmi Note 11E
     2. Браузер: Яндекс.Браузер
-    3. Перейти по ссылке: https://hexlet-products-store.vercel.app/cart
+    3. Перейти по ссылке: hexlet-products-store.vercel.app/cart
   test-data: 
     нет
   steps:
@@ -232,7 +232,7 @@
   prerequisites: 
     1. Устройство: iPad 10.2
     2. Браузер: Safari
-    3. Перейти по ссылке: https://hexlet-products-store.vercel.app/
+    3. Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -251,7 +251,7 @@
   prerequisites: 
     1. Устройство: ПК
     2. Браузер: Google Chrome
-    3. Перейти по ссылке: https://hexlet-products-store.vercel.app/
+    3. Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -268,7 +268,7 @@
   prerequisites: 
     1. Устройство: ПК
     2. Браузер: Google Chrome
-    3. Перейти по ссылке: https://hexlet-products-store.vercel.app/
+    3. Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -285,7 +285,7 @@
   prerequisites: 
     1. Устройство: Samsung Galaxy Tab A 8.0 SM-T295
     2. Браузер: Яндекс.Браузер
-    3. Перейти по ссылке: https://hexlet-products-store.vercel.app/cart
+    3. Перейти по ссылке: hexlet-products-store.vercel.app/cart
   test-data: 
     нет
   steps:
@@ -301,7 +301,7 @@
   prerequisites: 
     1. Устройство: iPhone XR
     2. Браузер: Safari
-    3. Перейти по ссылке: https://hexlet-products-store.vercel.app/
+    3. Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -317,7 +317,7 @@
   prerequisites: 
     1. Устройство: ПК
     2. Браузер: Safari
-    3. Перейти по ссылке: https://hexlet-products-store.vercel.app/
+    3. Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -334,7 +334,7 @@
   prerequisites: 
     1. Устройство: ПК
     2. Браузер: Google Chrome
-    3. Перейти по ссылке: https://hexlet-products-store.vercel.app/cart
+    3. Перейти по ссылке: hexlet-products-store.vercel.app/cart
   test-data: 
     нет
   steps:
@@ -350,7 +350,7 @@
   prerequisites: 
     1. Устройство: ПК
     2. Браузер: Microsoft Edge
-    3. Перейти по ссылке: https://hexlet-products-store.vercel.app/
+    3. Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     -300 – -700 
   steps:
@@ -367,7 +367,7 @@
   prerequisites: 
     1. Устройство: ПК
     2. Браузер: Microsoft Edge
-    3. Перейти по ссылке: https://hexlet-products-store.vercel.app/cart
+    3. Перейти по ссылке: hexlet-products-store.vercel.app/cart
   test-data: 
     нет
   steps:
@@ -383,7 +383,7 @@
   prerequisites: 
     1. Устройство: ПК
     2. Браузер: Яндекс.Браузер
-    3. Перейти по ссылке: https://hexlet-products-store.vercel.app/cart
+    3. Перейти по ссылке: hexlet-products-store.vercel.app/cart
   test-data: 
     нет
   steps:
@@ -399,7 +399,7 @@
   prerequisites: 
     1. Устройство: ПК
     2. Браузер: Microsoft Edge
-    3. Перейти по ссылке: https://hexlet-products-store.vercel.app/
+    3. Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
@@ -418,7 +418,7 @@
   prerequisites: 
     1. Устройство: ПК
     2. Браузер: Яндекс.Браузер
-    3. Перейти по ссылке: https://hexlet-products-store.vercel.app/
+    3. Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     ifone
   steps:
@@ -434,7 +434,7 @@
   prerequisites: 
     1. Устройство: ПК
     2. Браузер: Google Chrome
-    3. Перейти по ссылке: https://hexlet-products-store.vercel.app/
+    3. Перейти по ссылке: hexlet-products-store.vercel.app
   test-data: 
     нет
   steps:
