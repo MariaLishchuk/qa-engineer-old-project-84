@@ -102,7 +102,7 @@ test-cases:
 
 - summary: 
     Проверка негативных значений в фильтре «Price» с помощью ручного ввода
-    status: fail 
+  status: fail 
 
 
 - summary: 
@@ -120,12 +120,12 @@ test-cases:
   status: fail
 
 
-   - summary: 
+- summary: 
     Проверка ввода в поиске несуществующего названия товара
   status: fail
 
     
-   - summary: 
+- summary: 
     Проверка работы системы поиска при включенном фильтре «Brand»
   status: fail
 
