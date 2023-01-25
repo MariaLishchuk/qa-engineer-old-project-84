@@ -100,7 +100,7 @@
 
 - summary: 
     Проверка негативных значений в фильтре «Price» с помощью ручного ввода
-    status: fail 
+  status: fail 
 
 
 - summary: 
