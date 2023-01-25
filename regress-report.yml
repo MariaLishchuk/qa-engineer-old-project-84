@@ -97,17 +97,17 @@ test-cases:
 
 - summary: 
     Проверка перехода на главную страницу при нажатии на логотип
-  status: pass 
+  status: pass
 
 
 - summary: 
     Проверка негативных значений в фильтре «Price» с помощью ручного ввода
-  status: fail 
+  status: fail
 
 
 - summary: 
     Проверка негативных значений в левом окне фильтра «Price» с помощью кнопок 
-  status: pass 
+  status: pass
 
 
 - summary: 
