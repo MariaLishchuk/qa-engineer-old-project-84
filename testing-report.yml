@@ -1,31 +1,31 @@
 - summary: 
     Проверка переключения языка интерфейса сайта
-  status: pass
-
-
+  status: fail 
+  
+  
 - summary: 
     Проверка сортировки каталога по категориям
-  status: pass
+  status: pass 
 
 
 - summary: 
     Проверка работы системы фильтрации товаров
-  status: pass
+  status: pass 
 
 
 - summary: 
     Проверка работы системы поиска
-  status: pass
+  status: pass 
 
 
 - summary: 
     Проверка добавления товара в корзину из каталога
-  status: pass
+  status: pass 
 
 
 - summary: 
     Проверка удаления товара из корзины
-  status: pass
+  status: pass 
 
 
 - summary: 
@@ -35,59 +35,95 @@
 
 - summary: 
     Проверка оформления заказа
-  status: pass
+  status: pass 
 
 
 - summary: 
     Проверка функции «Очистить корзину»
-  status: pass
+  status: pass 
 
 
 - summary: 
     Проверка фильтра по стоимости товара
-  status: pass
+  status: pass 
+
+
+- summary: 
+    Проверка фильтра по стоимости товара со скидкой
+  status: fail 
 
 
 - summary: 
     Проверка перехода из каталога в корзину
-   status: pass
+  status: pass 
 
 
 - summary: 
     Проверка перехода из корзины в магазин
-  status: pass
+  status: pass 
 
 
 - summary: 
     Проверка добавления товара в корзину со страницы товара
-  status: pass
+  status: pass 
 
 
 - summary: 
     Проверка режима просмотра фотографий товара на странице товара
-  status: fail
+  status: fail 
 
 
 - summary: 
     Проверка режима работы хештегов
-  status: fail
+  status: fail 
 
 
 - summary: 
     Проверка режима возврата к покупкам из корзины
-  status: pass
+  status: pass 
 
 
 - summary: 
     Проверка перехода на следующую страницу в каталоге
-  status: pass
+  status: pass 
 
 
 - summary: 
     Проверка перехода на предыдущую страницу в каталоге
-  status: pass
+  status: pass 
 
 
 - summary: 
     Проверка перехода на главную страницу при нажатии на логотип
+  status: fail 
+
+
+- summary: 
+    Проверка негативных значений в фильтре «Price» с помощью ручного ввода
+    status: fail 
+
+
+- summary: 
+    Проверка негативных значений в левом окне фильтра «Price» с помощью кнопок 
+  status: pass 
+
+
+- summary: 
+    Проверка негативных значений в правом окне фильтра «Price» с помощью кнопок 
   status: fail
+
+
+- summary: 
+    Проверка работы кнопки «крестик» в окне «Заказ успешно оформлен»
+  status: fail
+
+
+- summary: 
+    Проверка ввода в поиске несуществующего названия товара
+  status: pass
+
+    
+- summary: 
+    Проверка работы системы поиска при включенном фильтре «Brand»
+  status: fail
+
