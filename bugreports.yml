@@ -1,144 +1,143 @@
-- summary: 
-    При переключении языка сайта на русский описания товаров отображены на английском
-  environment: 
-    ПК
-    Яндекс.Браузер 22.1.0.2510 (Официальная сборка) (64 бит)
-    ОС Windows 10 19045.2364
-  steps-to-reproduce: 
-    1. Перейти по ссылке https://hexlet-products-store.vercel.app/
-    2. Нажать кнопку «Language»
-    3. Выбрать значение «Russian» в выпадающем меню
-    4. Нажать на краткую карточку товара
-  expected-result: 
-    Интерфейс сайта отображен на русском языке
-  actual-result: 
-    Описание товара отображено на английском языке
+- summary:
+    When switching the site language to Russian, product descriptions are displayed in English
+  environment:
+    PC
+    Yandex.Browser 22.1.0.2510 (Official build) (64 bit)
+    Windows 10 OS 19045.2364
+  steps to reproduce:
+    1. Follow the link https://hexlet-products-store.vercel.app/
+    2. Press the "Language" button
+    3. Select the value "Russian" in the drop-down menu
+    4. Click on a short product card
+  expected result:
+    The site interface is displayed in Russian
+  actual-result:
+    Product description displayed in English
  
  
-- summary: 
-    Цена со скидкой не учитывается системой фильтрации
-  environment: 
-    ПК
-    Microsoft Edge 109.0.1518.61 (Официальная сборка) (64 бит)
-    ОС Windows 10 19045.2364
-  steps-to-reproduce: 
-    1. Перейти по ссылке https://hexlet-products-store.vercel.app/
-    2. Ввести числовое значение «229» в левое окно фильтра «Price»
-    3. Ввести числовое значение «230» в правое окно фильтра «Price»
-  expected-result: 
-    На странице отображены товары, чья стоимость с учетом скидки попадает в интервал 229-230
-  actual-result: 
-    Товары, чья цена со скидкой попадает в интервал, не отображены на странице
+- summary:
+    The discounted price is not taken into account by the filtering system
+  environment:
+    PC
+    Microsoft Edge 109.0.1518.61 (Official build) (64 bit)
+    Windows 10 OS 19045.2364
+  steps to reproduce:
+    1. Follow the link https://hexlet-products-store.vercel.app/
+    2. Enter the numerical value "229" in the left window of the "Price" filter
+    3. Enter the numerical value "230" in the right window of the "Price" filter
+  expected result:
+    The page displays products whose cost, taking into account the discount, falls within the range of 229-230
+  actual-result:
+    Products whose discounted price falls within the range are not displayed on the page
 
 
-- summary: 
-    Не работает режим просмотра изображений
-  environment: 
-    ПК
-    Google Chrome 108.0.5359.125 (Официальная сборка) (64 бит)
-    ОС Windows 10 19045.2364
-  steps-to-reproduce: 
-    1. Перейти по ссылке https://hexlet-products-store.vercel.app/
-    2. Нажать на краткую карточку товара
-    3. Нажать на изображение товара
-  expected-result: 
-    На странице открывается режим просмотра изображений
-  actual-result: 
-    На странице ничего не происходит
+- summary:
+    Image view does not work
+  environment:
+    PC
+    Google Chrome 108.0.5359.125 (Official build) (64 bit)
+    Windows 10 OS 19045.2364
+  steps to reproduce:
+    1. Follow the link https://hexlet-products-store.vercel.app/
+    2. Click on a short product card
+    3. Click on the product image
+  expected result:
+    Image view opens on the page
+  actual-result:
+    Nothing happens on the page
 
 
-- summary: 
-    Не работает система поиска по хештегам
-  environment: 
-    ПК
-    Google Chrome 108.0.5359.125 (Официальная сборка) (64 бит)
-    ОС Windows 10 19045.2364
-  steps-to-reproduce: 
-    1. Перейти по ссылке https://hexlet-products-store.vercel.app/
-    2. Нажать на краткую карточку товара
-    3. Нажать на хештег 
-  expected-result: 
-    Отображена страница с товарами с хештегом соответствующей категории
-  actual-result: 
-    На странице ничего не происходит
+- summary:
+    Hashtag search not working
+  environment:
+    PC
+    Google Chrome 108.0.5359.125 (Official build) (64 bit)
+    Windows 10 OS 19045.2364
+  steps to reproduce:
+    1. Follow the link https://hexlet-products-store.vercel.app/
+    2. Click on a short product card
+    3. Click on the hashtag
+  expected result:
+    Displayed a page with products with a hashtag of the corresponding category
+  actual-result:
+    Nothing happens on the page
 
 
-- summary: 
-    Не работает переход на главную страницу при нажатии на логотип
-  environment: 
-    ПК
-    Google Chrome 108.0.5359.125 (Официальная сборка) (64 бит)
-    ОС Windows 10 19045.2364
-  steps-to-reproduce: 
-    1. Зайти на страницу https://hexlet-products-store.vercel.app/cart
-    2. Нажать на логотип в хеддере
-  expected-result: 
-    Отображена главная страница сайта
-  actual-result: 
-    На странице ничего не происходит
+- summary:
+    Homepage not working when clicking on logo
+  environment:
+    PC
+    Google Chrome 108.0.5359.125 (Official build) (64 bit)
+    Windows 10 OS 19045.2364
+  steps to reproduce:
+    1. Go to the page https://hexlet-products-store.vercel.app/cart
+    2. Click on the logo in the header
+  expected result:
+    The main page of the site is displayed
+  actual-result:
+    Nothing happens on the page
 
 
-- summary: 
-    Фильтр «Price» принимает отрицательные значения при ручном вводе
-  environment: 
-    ПК
-    Microsoft Edge 109.0.1518.61 (Официальная сборка) (64 бит)
-    ОС Windows 10 19045.2364
-  steps-to-reproduce: 
-    1. Зайти на страницу https://hexlet-products-store.vercel.app/cart
-    2. Ввести числовое значение «-300» в левое окно фильтра «Price»
-    3. Ввести числовое значение «-700» в правое окно фильтра «Price»
-  expected-result: 
-    В левом окне фильтра «Price» отображено значение «300», в правом окне фильтра «Price» отображено значение «700»
-  actual-result: 
-    В левом окне фильтра «Price» отображено значение «-300», в правом окне фильтра «Price» отображено значение «-700»
+- summary:
+    Filter "Price" accepts negative values when entered manually
+  environment:
+    PC
+    Microsoft Edge 109.0.1518.61 (Official build) (64 bit)
+    Windows 10 OS 19045.2364
+  steps to reproduce:
+    1. Go to the page https://hexlet-products-store.vercel.app/cart
+    2. Enter the numerical value "-300" in the left window of the "Price" filter
+    3. Enter the numerical value "-700" in the right window of the "Price" filter
+  expected result:
+    The left window of the “Price” filter displays the value “300”, the right window of the “Price” filter displays the value “700”
+  actual-result:
+    The left window of the “Price” filter displays the value “-300”, the right window of the “Price” filter displays the value “-700”
 
 
-- summary: 
-    Фильтр «Price» устанавливает отрицательные значения в правом окне при нажатии на кнопку «стрелка вниз» 
-  environment: 
-    ПК
-    Яндекс.Браузер 22.1.0.2510 (Официальная сборка) (64 бит)
-    ОС Windows 10 19045.2364
-  steps-to-reproduce: 
-    1. Перейти по ссылке https://hexlet-products-store.vercel.app/
-    2. Нажать на кнопку «стрелка вниз» в правом окне фильтра «Price»
-  expected-result: 
-    Значения в окне не опускается ниже 0
-  actual-result: 
-    Значения в окне опускается ниже 0
+- summary:
+    The "Price" filter sets negative values in the right window when you click on the "down arrow" button
+  environment:
+    PC
+    Yandex.Browser 22.1.0.2510 (Official build) (64 bit)
+    Windows 10 OS 19045.2364
+  steps to reproduce:
+    1. Follow the link https://hexlet-products-store.vercel.app/
+    2. Click on the “down arrow” button in the right window of the “Price” filter
+  expected result:
+    Values in the window do not fall below 0
+  actual-result:
+    The value in the window goes below 0
 
 
-- summary: 
-    Не работает кнопка «крестик» в окне «Заказ успешно оформлен»
-  environment: 
-    ПК
-    Microsoft Edge 109.0.1518.61 (Официальная сборка) (64 бит)
-    ОС Windows 10 19045.2364
-  steps-to-reproduce: 
-    1. Перейти по ссылке https://hexlet-products-store.vercel.app/
-    2. Добавить товар в корзину
-    3. Нажать на кнопку «Корзина»
-    4. Нажать на кнопку «Оформить заказ»
-    5. Нажать на кнопку «Крестик»
-  expected-result: 
-    Окно «Заказ успешно оформлен» закрывается
-  actual-result: 
-    На странице ничего не происходит
+- summary:
+    The "cross" button in the "Order successfully completed" window does not work
+  environment:
+    PC
+    Microsoft Edge 109.0.1518.61 (Official build) (64 bit)
+    Windows 10 OS 19045.2364
+  steps to reproduce:
+    1. Follow the link https://hexlet-products-store.vercel.app/
+    2. Add item to cart
+    3. Click on the "Cart" button
+    4. Click on the "Checkout" button
+    5. Click on the "Cross" button
+  expected result:
+    The "Order Successfully Placed" window closes.
+  actual-result:
+    Nothing happens on the page
 
     
-- summary: 
-    Не работает поиск при включенном фильтре
-  environment: 
-    ПК
-    Google Chrome 108.0.5359.125 (Официальная сборка) (64 бит)
-    ОС Windows 10 19045.2364
-  steps-to-reproduce: 
-    1. Зайти на страницу https://hexlet-products-store.vercel.app/
-    2. Поставить галочку в чекбоксе бренда «Samsung»
-    3. В поисковом окне ввести значение «iphone»
-  expected-result: 
-    На странице отображен результат поисковой выдачи
-  actual-result: 
-    На странице отображен весь каталог продукции
-
+- summary:
+    Search doesn't work when filter is enabled
+  environment:
+    PC
+    Google Chrome 108.0.5359.125 (Official build) (64 bit)
+    Windows 10 OS 19045.2364
+  steps to reproduce:
+    1. Go to the page https://hexlet-products-store.vercel.app/
+    2. Put a tick in the checkbox of the brand "Samsung"
+    3. In the search box, enter the value "iphone"
+  expected result:
+    The page displays the search result
+  actual-result:
+    The page displays the entire product catalog
