@@ -1,26 +1,26 @@
 functional:
-  - Пользователь должен иметь возможность искать товары по ключевому слову или категории.
-  - Пользователь должен иметь возможность фильтровать товары по цене, цвету, размеру, бренду.
-  - Пользователь должен иметь возможность просматривать товары в каталоге, пользуясь постраничным выводом, и просматривать подробную информацию о товаре. 
-    В обоих случаях отображается следующая информация - название, рейтинг, цена со скидкой и без нее.
-  - Пользователь должен иметь возможность добавлять товары в корзину и просматривать содержимое корзины.
-  - После добавления товару в корзину пользователь может продолжить выбирать товары в каталоге.
-  - На странице корзины пользователь может удалить товар из корзины, продолжить выбирать товары в каталоге.
-  - При оформлении заказа осуществляется переход на страницу оплаты. 
-  - Корзина хранится в сессии браузера. 
-  - Интернет-магазин - это SPA приложение, которое не перезагружает страницу. 
+  - The user should be able to search for products by keyword or category.
+  - The user should be able to filter products by price, color, size, brand.
+  - The user should be able to view the products in the catalog using pagination and view detailed information about the product.
+    In both cases, the following information is displayed - name, rating, price with and without a discount.
+  - The user should be able to add items to the cart and view the contents of the cart.
+  - After adding a product to the cart, the user can continue to select products in the catalog.
+  - On the cart page, the user can remove an item from the cart, continue to select items in the catalog.
+  - When placing an order, you are redirected to the payment page.
+  - The shopping cart is stored in the browser session.
+  - The online store is a SPA application that does not reload the page.
 
 non-functional:
-  - Веб-сайт должен быть разработан с учетом удобства использования и оптимизирован для скорости работы.
-  - Сайт должен быть безопасным и защищать данные пользователя.
-  - Сайт должен быть способен обрабатывать большое количество трафика.
-  - Сайт должен иметь мобильную версию.
-  - Сайт должен быть протестирован на совместимость с последними версиями браузеров.
-  - Сайт должен быть доступен на различных устройствах.
-  - Ключевой возможностью магазина будет адаптивная верстка, чтобы он был удобным на мобильных устройствах. 
+  - The website should be designed with usability in mind and optimized for speed.
+  - The site must be secure and protect user data.
+  - The site must be able to handle a large amount of traffic.
+  - The site must have a mobile version.
+  - The site must be tested for compatibility with the latest versions of browsers.
+  - The site must be accessible on various devices.
+  - A key feature of the store will be adaptive layout so that it is convenient on mobile devices.
 
 implicit:
-  - Сохранение корзины через ckookie-файлы при завершении работы с сайтом пользователем
-  - Поиск по хештегу
-  - Отображение размера скидки на странице товара.
-  - Интерфейс доступен на двух языках - русский и английский.
+  - Saving the shopping cart via ckookies when the user exits the site
+  - Search by hashtag
+  - Display the size of the discount on the product page.
+  - The interface is available in two languages - Russian and English.
