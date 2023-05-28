@@ -1,129 +1,128 @@
-- summary: 
-    Проверка переключения языка интерфейса сайта
-  status: fail 
+- summary:
+    Checking the site interface language switching
+  status: fail
   
   
-- summary: 
-    Проверка сортировки каталога по категориям
-  status: pass 
-
-
-- summary: 
-    Проверка работы системы фильтрации товаров
-  status: pass 
-
-
-- summary: 
-    Проверка работы системы поиска
-  status: pass 
-
-
-- summary: 
-    Проверка добавления товара в корзину из каталога
-  status: pass 
-
-
-- summary: 
-    Проверка удаления товара из корзины
-  status: pass 
-
-
-- summary: 
-    Проверка перехода на страницу товара
+- summary:
+    Checking the catalog sorting by category
   status: pass
 
 
-- summary: 
-    Проверка оформления заказа
-  status: pass 
+- summary:
+    Checking the operation of the product filtering system
+  status: pass
 
 
-- summary: 
-    Проверка функции «Очистить корзину»
-  status: pass 
+- summary:
+    Checking the operation of the search system
+  status: pass
 
 
-- summary: 
-    Проверка фильтра по стоимости товара
-  status: pass 
+- summary:
+    Checking the addition of a product to the cart from the catalog
+  status: pass
 
 
-- summary: 
-    Проверка фильтра по стоимости товара со скидкой
-  status: fail 
+- summary:
+    Checking if an item has been removed from the cart
+  status: pass
 
 
-- summary: 
-    Проверка перехода из каталога в корзину
-  status: pass 
+- summary:
+    Checking the transition to the product page
+  status: pass
 
 
-- summary: 
-    Проверка перехода из корзины в магазин
-  status: pass 
+- summary:
+    Checkout checkout
+  status: pass
 
 
-- summary: 
-    Проверка добавления товара в корзину со страницы товара
-  status: pass 
+- summary:
+    Testing the "Empty Trash" Function
+  status: pass
 
 
-- summary: 
-    Проверка режима просмотра фотографий товара на странице товара
-  status: fail 
+- summary:
+    Checking the filter by item price
+  status: pass
 
 
-- summary: 
-    Проверка режима работы хештегов
-  status: fail 
+- summary:
+    Checking the filter by the cost of goods with a discount
+  status: fail
 
 
-- summary: 
-    Проверка режима возврата к покупкам из корзины
-  status: pass 
+- summary:
+    Checking the transition from the catalog to the basket
+  status: pass
 
 
-- summary: 
-    Проверка перехода на следующую страницу в каталоге
-  status: pass 
+- summary:
+    Checking the transition from the cart to the store
+  status: pass
 
 
-- summary: 
-    Проверка перехода на предыдущую страницу в каталоге
-  status: pass 
+- summary:
+    Checking if a product has been added to the cart from the product page
+  status: pass
 
 
-- summary: 
-    Проверка перехода на главную страницу при нажатии на логотип
-  status: fail 
+- summary:
+    Checking the view mode of product photos on the product page
+  status: fail
 
 
-- summary: 
-    Проверка негативных значений в фильтре «Price» с помощью ручного ввода
-  status: fail 
+- summary:
+    Checking the mode of hashtags
+  status: fail
 
 
-- summary: 
-    Проверка негативных значений в левом окне фильтра «Price» с помощью кнопок 
-  status: pass 
+- summary:
+    Checking the return to shopping cart mode
+  status: pass
 
 
-- summary: 
-    Проверка негативных значений в правом окне фильтра «Price» с помощью кнопок 
+- summary:
+    Checking the transition to the next page in the catalog
+  status: pass
+
+
+- summary:
+    Checking the transition to the previous page in the catalog
+  status: pass
+
+
+- summary:
+    Checking the transition to the main page when clicking on the logo
+  status: fail
+
+
+- summary:
+    Checking negative values in the "Price" filter using manual input
+  status: fail
+
+
+- summary:
+    Checking negative values in the left window of the "Price" filter using the buttons
+  status: pass
+
+
+- summary:
+    Checking negative values in the right window of the "Price" filter using the buttons
+  status: fail
+
+
+- summary:
+    Checking the operation of the "cross" button in the "Order successfully placed" window
   status: fail
 
 
 - summary: 
-    Проверка работы кнопки «крестик» в окне «Заказ успешно оформлен»
-  status: fail
-
-
-- summary: 
-    Проверка ввода в поиске несуществующего названия товара
-  status: pass
+   Проверка ввода в поиске несуществующего названия товара
+ status: pass
 
     
 - summary: 
-    Проверка работы системы поиска при включенном фильтре «Brand»
-  status: fail
-
+   Проверка работы системы поиска при включенном фильтре «Brand»
+ status: fail
